@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		C2D73D9E2C90F63B00AA18D6 /* LoopyBirdApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D73D9D2C90F63B00AA18D6 /* LoopyBirdApp.swift */; };
-		C2D73DA02C90F63B00AA18D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D73D9F2C90F63B00AA18D6 /* ContentView.swift */; };
+		C2D73DA02C90F63B00AA18D6 /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D73D9F2C90F63B00AA18D6 /* StartScreen.swift */; };
 		C2D73DA22C90F63D00AA18D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2D73DA12C90F63D00AA18D6 /* Assets.xcassets */; };
 		C2D73DA52C90F63D00AA18D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2D73DA42C90F63D00AA18D6 /* Preview Assets.xcassets */; };
+		C2D73DAC2C9100A200AA18D6 /* BirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D73DAB2C9100A200AA18D6 /* BirdView.swift */; };
+		C2D73DAE2C91010700AA18D6 /* PipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D73DAD2C91010700AA18D6 /* PipesView.swift */; };
+		C2D73DB02C91014E00AA18D6 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D73DAF2C91014E00AA18D6 /* ResultView.swift */; };
+		C2D73DB22C91019700AA18D6 /* GameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D73DB12C91019700AA18D6 /* GameSettings.swift */; };
+		C2D73DB42C9101D900AA18D6 /* MenuScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D73DB32C9101D900AA18D6 /* MenuScreen.swift */; };
+		C2D73DB62C91025500AA18D6 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D73DB52C91025500AA18D6 /* GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C2D73D9A2C90F63B00AA18D6 /* LoopyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoopyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D73D9D2C90F63B00AA18D6 /* LoopyBirdApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopyBirdApp.swift; sourceTree = "<group>"; };
-		C2D73D9F2C90F63B00AA18D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C2D73D9F2C90F63B00AA18D6 /* StartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreen.swift; sourceTree = "<group>"; };
 		C2D73DA12C90F63D00AA18D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2D73DA42C90F63D00AA18D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C2D73DAB2C9100A200AA18D6 /* BirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdView.swift; sourceTree = "<group>"; };
+		C2D73DAD2C91010700AA18D6 /* PipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipesView.swift; sourceTree = "<group>"; };
+		C2D73DAF2C91014E00AA18D6 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		C2D73DB12C91019700AA18D6 /* GameSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettings.swift; sourceTree = "<group>"; };
+		C2D73DB32C9101D900AA18D6 /* MenuScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScreen.swift; sourceTree = "<group>"; };
+		C2D73DB52C91025500AA18D6 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +64,13 @@
 			isa = PBXGroup;
 			children = (
 				C2D73D9D2C90F63B00AA18D6 /* LoopyBirdApp.swift */,
-				C2D73D9F2C90F63B00AA18D6 /* ContentView.swift */,
+				C2D73D9F2C90F63B00AA18D6 /* StartScreen.swift */,
+				C2D73DB32C9101D900AA18D6 /* MenuScreen.swift */,
+				C2D73DB52C91025500AA18D6 /* GameView.swift */,
+				C2D73DAB2C9100A200AA18D6 /* BirdView.swift */,
+				C2D73DAD2C91010700AA18D6 /* PipesView.swift */,
+				C2D73DAF2C91014E00AA18D6 /* ResultView.swift */,
+				C2D73DB12C91019700AA18D6 /* GameSettings.swift */,
 				C2D73DA12C90F63D00AA18D6 /* Assets.xcassets */,
 				C2D73DA32C90F63D00AA18D6 /* Preview Content */,
 			);
@@ -137,7 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2D73DA02C90F63B00AA18D6 /* ContentView.swift in Sources */,
+				C2D73DAC2C9100A200AA18D6 /* BirdView.swift in Sources */,
+				C2D73DB42C9101D900AA18D6 /* MenuScreen.swift in Sources */,
+				C2D73DA02C90F63B00AA18D6 /* StartScreen.swift in Sources */,
+				C2D73DB22C91019700AA18D6 /* GameSettings.swift in Sources */,
+				C2D73DB02C91014E00AA18D6 /* ResultView.swift in Sources */,
+				C2D73DAE2C91010700AA18D6 /* PipesView.swift in Sources */,
+				C2D73DB62C91025500AA18D6 /* GameView.swift in Sources */,
 				C2D73D9E2C90F63B00AA18D6 /* LoopyBirdApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
